@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./resources/styles/style.css">
+    <title>Pumper</title>
+</head>
+<body>
+    <div class="card">
+        <div class="card-title">
+            <h3 class="card-title-text">YAY! it's BOGO</h3>
+        </div>
+        <div class="offer-box" id="offer-box-1">
+            <div class="offer-tag"><p class="offer-tag-text">30% Off</p></div>
+            <div class="pricing-section">
+                <div class="pricing-container">
+                    <input type="radio" name="offer" id="offer1" value="offer1">
+                    <label for="offer1" class="custom-radio"></label>
+                    <div class="pricing-details" id="pricing-details-1">
+                        <p class="offer-lable">Buy 1 Get 2</p>
+                        <p class="current-price">$18.00 USD</p>
+                        <p class="cancelled-price">$6.00 USD</p>
+                    </div>
+                </div>
+                <div class="additional-options" id="additional-options-offer1">
+                </div>
+            </div>
+            <div class="popularity"></div>
+        </div>
+        <div class="offer-box" id="offer-box-2">
+            <div class="offer-tag"><p class="offer-tag-text">30% Off</p></div>
+            <div class="pricing-section">
+                <div class="pricing-container">
+                    <input type="radio" name="offer" id="offer2" value="offer2">
+                    <label for="offer2" class="custom-radio"></label>
+                    <div class="pricing-details" id="pricing-details-2">
+                        <p class="offer-lable">Buy 2 Get 4</p>
+                        <p class="current-price">$24.00 USD</p>
+                        <p class="cancelled-price">$8.00 USD</p>
+                    </div>
+                </div>
+                <div class="additional-options" id="additional-options-offer2">
+                </div>
+            </div>
+            <div class="popularity"><p>Most Popular</p></div>
+        </div>
+        <div class="offer-box" id="offer-box-3">
+            <div class="offer-tag"><p class="offer-tag-text">30% Off</p></div>
+            <div class="pricing-section">
+                <div class="pricing-container">
+                    <input type="radio" name="offer" id="offer3" value="offer3" checked>
+                    <label for="offer3" class="custom-radio"></label>
+                    <div class="pricing-details" id="pricing-details-1">
+                        <p class="offer-lable">Buy 3 Get 6</p>
+                        <p class="current-price">$36.00 USD</p>
+                        <p class="cancelled-price">$10.00 USD</p>
+                    </div>
+                </div>
+                <div class="additional-options" id="additional-options-offer3">
+                </div>
+            </div>
+            <div class="popularity"></div>
+        </div>
+        <div class="bill-detail-section">
+            <p class="delivery-tag">Free Delivery</p>
+            <div class="total-section">
+                <p class="total-bill">Total : <span id="total-price">$0.00 USD</span></p>
+            </div>
+        </div>
+        <button class="add-to-cart-button"> <span class="plus-icon">+</span> Add to Cart</button>
+        <p class="powered-tag">Powered by <span class="pumper-span">Pumper</span></p>
+    </div>
+    <script src="./resources/features/toggle.js"></script>
+</body>
+</html>
